@@ -1,5 +1,6 @@
 import torch
 import torch.nn as nn
+from torch.autograd import Variable
 
 class RNN(nn.Module):
     def __init__(self, input_size, hidden_size, output_size, model_type="rnn", n_layers=1):
@@ -33,8 +34,11 @@ class RNN(nn.Module):
         ####################################
         #          YOUR CODE HERE          #
         ####################################
-
-        
+        self.encoder = nn.Embedding(input_size, hidden_size)
+        self.rnn = nn.RNN(hidden_size, hidden_size, n_layers)
+        if self.model_type == "lstm":
+          self.rnn = nn.LSTM(hidden_size, hidden_size, n_layers)
+        self.decoder = nn.Linear(hidden_size, output_size)
         ##########       END      ##########
         
 
@@ -60,7 +64,9 @@ class RNN(nn.Module):
         ####################################
         #          YOUR CODE HERE          #
         ####################################
-
+        output, hidden = self.rnn(self.encoder(input).view(1, input.size(0), -1), hidden)
+        output = self.decoder(output.view(input.size(0), -1))
+        return output, hidden
         
         ##########       END      ##########
         
@@ -81,13 +87,13 @@ class RNN(nn.Module):
         """
         
         hidden = None
-        
         ####################################
         #          YOUR CODE HERE          #
         ####################################
-        
+        hidden = Variable(torch.zeros(self.n_layers, batch_size, self.hidden_size))
+        if self.model_type == "lstm":
+            hidden = (Variable(torch.zeros(self.n_layers, batch_size, self.hidden_size)), \
+                      Variable(torch.zeros(self.n_layers, batch_size, self.hidden_size)))
 
         ##########       END      ##########
-
         return hidden
-

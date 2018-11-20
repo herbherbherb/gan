@@ -1,6 +1,12 @@
 import torch
-from torch.nn.functional import binary_cross_entropy_with_logits as bce_loss
+import math
+# from torch.nn.functional import binary_cross_entropy_with_logits as bce_loss
 from torch.autograd import Variable
+
+def bce_loss(input, target):
+    neg_abs = - input.abs()
+    loss = input.clamp(min=0) - input * target + (1 + neg_abs.exp()).log()
+    return loss.mean()
 
 def discriminator_loss(logits_real, logits_fake):
     """
@@ -24,7 +30,8 @@ def discriminator_loss(logits_real, logits_fake):
     #          YOUR CODE HERE          #
     ####################################
     N, _ = logits_real.size()
-    loss = (bce_loss(logits_real, Variable(torch.ones(N)).type(dtype)) + bce_loss(logits_fake, Variable(torch.zeros(N)).type(dtype)))
+    loss = (bce_loss(logits_real, Variable(torch.ones(N)).type(dtype)) + \
+        bce_loss(logits_fake, Variable(torch.zeros(N)).type(dtype)))
     ##########       END      ##########
     
     return loss
