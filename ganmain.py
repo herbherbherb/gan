@@ -37,20 +37,14 @@ from torchvision import datasets
 from torchvision import transforms
 from torch.utils.data import DataLoader
 from torchvision.datasets import ImageFolder
-
 import numpy as np
-
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
-
-%matplotlib inline
 plt.rcParams['figure.figsize'] = (10.0, 8.0) # set default size of plots
 plt.rcParams['image.interpolation'] = 'nearest'
 plt.rcParams['image.cmap'] = 'gray'
-
-%load_ext autoreload
-%autoreload 2
-
+import sys
+sys.path.append('/home/jkane021/gan/gan')
 from gan.train import train
 from gan.utils import sample_noise, show_images, deprocess_img, preprocess_img
 from gan.losses import discriminator_loss, generator_loss, ls_discriminator_loss, ls_generator_loss
