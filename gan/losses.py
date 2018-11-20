@@ -1,5 +1,6 @@
 import torch
 from torch.nn.functional import binary_cross_entropy_with_logits as bce_loss
+from torch.autograd import Variable
 
 def discriminator_loss(logits_real, logits_fake):
     """
@@ -18,12 +19,12 @@ def discriminator_loss(logits_real, logits_fake):
     """
     
     loss = None
-    
+    dtype = torch.cuda.FloatTensor
     ####################################
     #          YOUR CODE HERE          #
     ####################################
-    
-    
+    N, _ = logits_real.size()
+    loss = (bce_loss(logits_real, Variable(torch.ones(N)).type(dtype)) + bce_loss(logits_fake, Variable(torch.zeros(N)).type(dtype)))
     ##########       END      ##########
     
     return loss
@@ -44,12 +45,12 @@ def generator_loss(logits_fake):
     """
     
     loss = None
-    
+    dtype = torch.cuda.FloatTensor
     ####################################
     #          YOUR CODE HERE          #
     ####################################
-    
-    
+    N, _ = logits_fake.size()
+    loss = bce_loss(logits_fake, Variable(torch.ones(N)).type(dtype))
     ##########       END      ##########
     
     return loss
@@ -68,12 +69,14 @@ def ls_discriminator_loss(scores_real, scores_fake):
     """
     
     loss = None
-    
+    dtype = torch.cuda.FloatTensor
     ####################################
     #          YOUR CODE HERE          #
     ####################################
-    
-    
+    N, _ = scores_real.size()
+    scores_real_loss = torch.mean(torch.pow(scores_real-Variable(torch.ones(N)).type(dtype), 2))/2
+    scores_fake_loss = torch.mean(torch.pow(scores_fake, 2))/2
+    loss = scores_real_loss + scores_fake_loss    
     ##########       END      ##########
     
     return loss
@@ -90,12 +93,12 @@ def ls_generator_loss(scores_fake):
     """
     
     loss = None
-    
+    dtype = torch.cuda.FloatTensor
     ####################################
     #          YOUR CODE HERE          #
     ####################################
-    
-    
+    N, _ = scores_fake.size()
+    loss = torch.mean(torch.pow(scores_fake - Variable(torch.ones(N)).type(dtype), 2))/2
     ##########       END      ##########
     
     return loss

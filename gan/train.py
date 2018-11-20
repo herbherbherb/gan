@@ -1,5 +1,7 @@
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
+import torch
+from torch.autograd import Variable
 
 from gan.utils import sample_noise, show_images, deprocess_img, preprocess_img
 
@@ -41,6 +43,7 @@ def train(D, G, D_solver, G_solver, discriminator_loss, generator_loss, show_eve
     - train_loader: image dataloader
     - device: PyTorch device
     """
+    dtype = torch.cuda.FloatTensor
     iter_count = 0
     for epoch in range(num_epochs):
         print('EPOCH: ', (epoch+1))
@@ -58,8 +61,38 @@ def train(D, G, D_solver, G_solver, discriminator_loss, generator_loss, show_eve
             ####################################
             #          YOUR CODE HERE          #
             ####################################
-            
-            
+            '''
+            (1) In the discriminator step, you should zero gradients in the discriminator 
+            and sample noise to generate a fake data batch using the generator. Calculate 
+            the discriminator output for real and fake data, and use the output to compute
+            discriminator loss. Call backward() on the loss output and take an optimizer
+            step for the discriminator.
+            '''
+            D_solver.zero_grad()
+            logits_real = D(2 * Variable(x).type(dtype) - 1.0).type(dtype)
+
+            sampleNoise = Variable(sample_noise(batch_size, noise_size)).type(dtype)
+            fake_images = G(sampleNoise).detach()
+            discriminator_output = D(fake_images.view(batch_size, 1, 28, 28))
+
+            d_error = discriminator_loss(logits_real, discriminator_output)
+            d_error.backward()        
+            D_solver.step()
+            '''
+            (2) For the generator step, you should once again zero gradients in the generator
+            and sample noise to generate a fake data batch. Get the discriminator output
+            for the fake data batch and use this to compute the generator loss. Once again
+            call backward() on the loss and take an optimizer step.
+            '''
+            G_solver.zero_grad()
+            sampleNoise = Variable(sample_noise(batch_size, noise_size)).type(dtype)
+            fake_images = G(sampleNoise)
+
+            discriminator_output = D(fake_images.view(batch_size, 1, 28, 28))
+            g_error = generator_loss(discriminator_output)
+            g_error.backward()
+            G_solver.step()
+
             ##########       END      ##########
             
             # Logging and output visualization
@@ -71,3 +104,4 @@ def train(D, G, D_solver, G_solver, discriminator_loss, generator_loss, show_eve
                 plt.show()
                 print()
             iter_count += 1
+            
