@@ -37,7 +37,7 @@ class RNN(nn.Module):
         self.encoder = nn.Embedding(input_size, hidden_size)
         self.rnn = nn.RNN(hidden_size, hidden_size, n_layers)
         if self.model_type == "lstm":
-          self.rnn = nn.LSTM(hidden_size, hidden_size, n_layers)
+            self.rnn = nn.LSTM(hidden_size, hidden_size, n_layers)
         self.decoder = nn.Linear(hidden_size, output_size)
         ##########       END      ##########
         
