@@ -69,14 +69,13 @@ def train(D, G, D_solver, G_solver, discriminator_loss, generator_loss, show_eve
             step for the discriminator.
             '''
             D_solver.zero_grad()
-            logits_real = D(2 * Variable(x).type(dtype) - 1.0).type(dtype)
-
-            sampleNoise = Variable(sample_noise(batch_size, noise_size)).type(dtype)
-            fake_images = G(sampleNoise).detach()
-            discriminator_output = D(fake_images.view(batch_size, 1, 28, 28))
+            minibatch_noise = sample_noise(batch_size, noise_size).to(device)
+            fake_images = G(minibatch_noise).detach()
+            discriminator_output = D(fake_images.view(batch_size, input_channels, img_size, img_size))
+            logits_real = D(real_images)
 
             d_error = discriminator_loss(logits_real, discriminator_output)
-            d_error.backward()        
+            d_error.backward()
             D_solver.step()
             '''
             (2) For the generator step, you should once again zero gradients in the generator
@@ -85,10 +84,10 @@ def train(D, G, D_solver, G_solver, discriminator_loss, generator_loss, show_eve
             call backward() on the loss and take an optimizer step.
             '''
             G_solver.zero_grad()
-            sampleNoise = Variable(sample_noise(batch_size, noise_size)).type(dtype)
+            sampleNoise = sample_noise(batch_size, noise_size).to(device)
             fake_images = G(sampleNoise)
+            discriminator_output = D(fake_images.view(batch_size, input_channels, img_size, img_size))
 
-            discriminator_output = D(fake_images.view(batch_size, 1, 28, 28))
             g_error = generator_loss(discriminator_output)
             g_error.backward()
             G_solver.step()
@@ -102,6 +101,7 @@ def train(D, G, D_solver, G_solver, discriminator_loss, generator_loss, show_eve
                 imgs_numpy = (disp_fake_images).cpu().numpy()
                 show_images(imgs_numpy[0:16], color=input_channels!=1)
                 plt.show()
+                plt.savefig('iter_'+str(iter_count)+'.png')
                 print()
             iter_count += 1
             

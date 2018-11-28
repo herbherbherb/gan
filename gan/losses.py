@@ -29,7 +29,7 @@ def discriminator_loss(logits_real, logits_fake):
     ####################################
     #          YOUR CODE HERE          #
     ####################################
-    N, _ = logits_real.size()
+    N = logits_real.size()
     loss = (bce_loss(logits_real, Variable(torch.ones(N)).type(dtype)) + \
         bce_loss(logits_fake, Variable(torch.zeros(N)).type(dtype)))
     ##########       END      ##########
@@ -56,7 +56,7 @@ def generator_loss(logits_fake):
     ####################################
     #          YOUR CODE HERE          #
     ####################################
-    N, _ = logits_fake.size()
+    N= logits_fake.size()
     loss = bce_loss(logits_fake, Variable(torch.ones(N)).type(dtype))
     ##########       END      ##########
     

@@ -1,5 +1,6 @@
 import torch
-
+import torch.nn.functional as F
+import torch.nn as nn
 
 class Discriminator(torch.nn.Module):
     def __init__(self, input_channels=3):
@@ -21,11 +22,12 @@ class Discriminator(torch.nn.Module):
         ####################################
         #          YOUR CODE HERE          #
         ####################################
-        x = F.leaky_relu(self.conv1(input), 0.2)
+        x = F.leaky_relu(self.conv1(x), 0.2)
         x = F.leaky_relu(self.conv2_bn(self.conv2(x)), 0.2)
         x = F.leaky_relu(self.conv3_bn(self.conv3(x)), 0.2)
         x = F.leaky_relu(self.conv4_bn(self.conv4(x)), 0.2)
-        x = F.sigmoid(self.conv5(x))
+        # x = F.sigmoid(self.conv5(x))
+        x = F.leaky_relu(self.conv5(x), 0.2)
         
         ##########       END      ##########
         return x
@@ -55,7 +57,8 @@ class Generator(torch.nn.Module):
         ####################################
         #          YOUR CODE HERE          #
         ####################################
-        x = F.relu(self.deconv1_bn(self.deconv1(input)))
+        x = x.view(-1, self.noise_dim, 1, 1)
+        x = F.relu(self.deconv1_bn(self.deconv1(x)))
         x = F.relu(self.deconv2_bn(self.deconv2(x)))
         x = F.relu(self.deconv3_bn(self.deconv3(x)))
         x = F.relu(self.deconv4_bn(self.deconv4(x)))
