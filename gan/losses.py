@@ -80,7 +80,7 @@ def ls_discriminator_loss(scores_real, scores_fake):
     ####################################
     #          YOUR CODE HERE          #
     ####################################
-    N, _ = scores_real.size()
+    N = scores_real.size()
     scores_real_loss = torch.mean(torch.pow(scores_real-Variable(torch.ones(N)).type(dtype), 2))/2
     scores_fake_loss = torch.mean(torch.pow(scores_fake, 2))/2
     loss = scores_real_loss + scores_fake_loss    
@@ -104,7 +104,7 @@ def ls_generator_loss(scores_fake):
     ####################################
     #          YOUR CODE HERE          #
     ####################################
-    N, _ = scores_fake.size()
+    N = scores_fake.size()
     loss = torch.mean(torch.pow(scores_fake - Variable(torch.ones(N)).type(dtype), 2))/2
     ##########       END      ##########
     

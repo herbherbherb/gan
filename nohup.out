@@ -1,0 +1,112 @@
+[I 17:33:08.423 NotebookApp] Writing notebook server cookie secret to /run/user/1001/jupyter/notebook_cookie_secret
+[I 17:33:08.677 NotebookApp] JupyterLab extension loaded from /usr/local/lib/python3.5/dist-packages/jupyterlab
+[I 17:33:08.677 NotebookApp] JupyterLab application directory is /usr/local/share/jupyter/lab
+[I 17:33:08.679 NotebookApp] Serving notebooks from local directory: /home/jkane021/gan
+[I 17:33:08.679 NotebookApp] The Jupyter Notebook is running at:
+[I 17:33:08.679 NotebookApp] http://(cs498-vm or 127.0.0.1):8888/?token=10ed5d7d9dc18f7b2efcbc742518616958e7f392a49acee3
+[I 17:33:08.679 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 17:33:08.679 NotebookApp] No web browser found: could not locate runnable browser.
+[C 17:33:08.679 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://(cs498-vm or 127.0.0.1):8888/?token=10ed5d7d9dc18f7b2efcbc742518616958e7f392a49acee3
+[I 17:33:26.355 NotebookApp] 302 GET /?token=10ed5d7d9dc18f7b2efcbc742518616958e7f392a49acee3 (130.126.255.143) 0.70ms
+[I 17:35:15.053 NotebookApp] Kernel started: 6fc20bf7-833e-4743-9ce3-b82efb8d4bc7
+[I 17:35:15.310 NotebookApp] Adapting to protocol v5.1 for kernel 6fc20bf7-833e-4743-9ce3-b82efb8d4bc7
+[I 17:35:33.308 NotebookApp] Saving file at /MP4_P2_generation.ipynb
+[I 17:37:33.312 NotebookApp] Saving file at /MP4_P2_generation.ipynb
+[I 17:39:33.298 NotebookApp] Saving file at /MP4_P2_generation.ipynb
+[I 17:41:33.299 NotebookApp] Saving file at /MP4_P2_generation.ipynb
+[I 17:43:33.309 NotebookApp] Saving file at /MP4_P2_generation.ipynb
+[I 17:45:33.340 NotebookApp] Saving file at /MP4_P2_generation.ipynb
+[I 17:47:33.327 NotebookApp] Saving file at /MP4_P2_generation.ipynb
+[I 17:49:33.321 NotebookApp] Saving file at /MP4_P2_generation.ipynb
+[I 17:51:33.337 NotebookApp] Saving file at /MP4_P2_generation.ipynb
+[I 17:53:33.304 NotebookApp] Saving file at /MP4_P2_generation.ipynb
+[I 17:55:33.213 NotebookApp] Saving file at /MP4_P2_generation.ipynb
+[I 17:55:37.272 NotebookApp] Kernel started: c8b58061-bc24-4c2c-810b-76ca66d61654
+[I 17:55:38.006 NotebookApp] Adapting to protocol v5.1 for kernel c8b58061-bc24-4c2c-810b-76ca66d61654
+[I 17:57:33.303 NotebookApp] Saving file at /MP4_P2_generation.ipynb
+[I 17:59:33.316 NotebookApp] Saving file at /MP4_P2_generation.ipynb
+[I 18:01:33.320 NotebookApp] Saving file at /MP4_P2_generation.ipynb
+[I 18:03:33.307 NotebookApp] Saving file at /MP4_P2_generation.ipynb
+[I 18:05:33.318 NotebookApp] Saving file at /MP4_P2_generation.ipynb
+[I 18:07:33.316 NotebookApp] Saving file at /MP4_P2_generation.ipynb
+[I 18:09:33.300 NotebookApp] Saving file at /MP4_P2_generation.ipynb
+[I 18:11:33.304 NotebookApp] Saving file at /MP4_P2_generation.ipynb
+[I 18:13:33.317 NotebookApp] Saving file at /MP4_P2_generation.ipynb
+[I 18:15:33.308 NotebookApp] Saving file at /MP4_P2_generation.ipynb
+[I 18:17:33.304 NotebookApp] Saving file at /MP4_P2_generation.ipynb
+[W 18:20:08.009 NotebookApp] WebSocket ping timeout after 119942 ms.
+[I 18:20:13.013 NotebookApp] Starting buffering for c8b58061-bc24-4c2c-810b-76ca66d61654:dd9f179b45414db597f841816aca4ce4
+[W 18:20:15.313 NotebookApp] WebSocket ping timeout after 119872 ms.
+[I 18:20:20.315 NotebookApp] Starting buffering for 6fc20bf7-833e-4743-9ce3-b82efb8d4bc7:10c1c7a745c54134bca9a75cafbcad35
+[W 19:37:12.912 NotebookApp] 403 POST / (185.153.198.208): '_xsrf' argument missing from POST
+[W 19:37:12.912 NotebookApp] 403 POST / (185.153.198.208) 0.86ms referer=None
+[I 19:37:12.913 NotebookApp] Malformed HTTP message from 185.153.198.208: Malformed HTTP request line
+[I 21:13:23.786 NotebookApp] 302 GET /?token=10ed5d7d9dc18f7b2efcbc742518616958e7f392a49acee3 (130.126.255.143) 0.63ms
+[I 21:13:29.374 NotebookApp] Adapting to protocol v5.1 for kernel 6fc20bf7-833e-4743-9ce3-b82efb8d4bc7
+[I 21:13:29.375 NotebookApp] Discarding 57 buffered messages for 6fc20bf7-833e-4743-9ce3-b82efb8d4bc7:10c1c7a745c54134bca9a75cafbcad35
+[W 21:15:19.229 NotebookApp] 403 POST / (185.153.198.208): '_xsrf' argument missing from POST
+[W 21:15:19.229 NotebookApp] 403 POST / (185.153.198.208) 0.86ms referer=None
+[I 21:15:19.230 NotebookApp] Malformed HTTP message from 185.153.198.208: Malformed HTTP request line
+[I 21:15:30.343 NotebookApp] Saving file at /MP4_P2_generation.ipynb
+[I 21:17:41.195 NotebookApp] Adapting to protocol v5.1 for kernel c8b58061-bc24-4c2c-810b-76ca66d61654
+[I 21:19:41.195 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 21:20:58.513 NotebookApp] Kernel started: 25c330a1-4d66-470c-8ddd-094848989cfa
+[I 21:20:59.307 NotebookApp] Adapting to protocol v5.1 for kernel 25c330a1-4d66-470c-8ddd-094848989cfa
+[W 21:21:03.154 NotebookApp] 404 GET /static/components/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_AMS-Regular.otf (130.126.255.143) 18.05ms referer=http://35.232.143.241:8888/notebooks/MP4_P1.ipynb
+[I 21:21:13.368 NotebookApp] Starting buffering for 25c330a1-4d66-470c-8ddd-094848989cfa:0c77ea8a4d5d450a87d8f58662e33df3
+[I 21:21:41.226 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 21:23:41.436 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[W 21:29:11.197 NotebookApp] WebSocket ping timeout after 119838 ms.
+[I 21:29:16.201 NotebookApp] Starting buffering for c8b58061-bc24-4c2c-810b-76ca66d61654:cbef450d282d471ca45e2544c3e83efc
+[W 21:29:29.376 NotebookApp] WebSocket ping timeout after 119791 ms.
+[I 21:29:34.378 NotebookApp] Starting buffering for 6fc20bf7-833e-4743-9ce3-b82efb8d4bc7:168ec6d466b948cb84f8ee27d2b0ec1c
+[I 21:33:44.413 NotebookApp] Adapting to protocol v5.1 for kernel 6fc20bf7-833e-4743-9ce3-b82efb8d4bc7
+[I 21:33:44.414 NotebookApp] Restoring connection for 6fc20bf7-833e-4743-9ce3-b82efb8d4bc7:168ec6d466b948cb84f8ee27d2b0ec1c
+[I 21:33:45.159 NotebookApp] Adapting to protocol v5.1 for kernel c8b58061-bc24-4c2c-810b-76ca66d61654
+[I 21:33:45.160 NotebookApp] Restoring connection for c8b58061-bc24-4c2c-810b-76ca66d61654:cbef450d282d471ca45e2544c3e83efc
+[I 21:35:03.815 NotebookApp] Saving file at /MP4_P2_generation.ipynb
+[I 21:35:30.168 NotebookApp] Saving file at /MP4_P2_generation.ipynb
+[I 21:35:41.009 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 21:35:41.094 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 21:35:41.321 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 21:35:41.544 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 21:35:41.713 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 21:35:41.873 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 21:41:41.093 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 21:41:45.084 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 21:41:57.841 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 21:42:04.306 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 21:43:30.708 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 21:44:31.833 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 21:45:23.318 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 21:45:41.048 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 22:04:22.802 NotebookApp] Writing notebook server cookie secret to /run/user/1001/jupyter/notebook_cookie_secret
+[I 22:04:23.072 NotebookApp] JupyterLab extension loaded from /usr/local/lib/python3.5/dist-packages/jupyterlab
+[I 22:04:23.072 NotebookApp] JupyterLab application directory is /usr/local/share/jupyter/lab
+[I 22:04:23.074 NotebookApp] Serving notebooks from local directory: /home/jkane021/gan
+[I 22:04:23.074 NotebookApp] The Jupyter Notebook is running at:
+[I 22:04:23.074 NotebookApp] http://(cs498-vm or 127.0.0.1):8888/?token=cca561d0906709a092abcc2863db8e399d034369cf0d03e2
+[I 22:04:23.074 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 22:04:23.075 NotebookApp] No web browser found: could not locate runnable browser.
+[C 22:04:23.075 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://(cs498-vm or 127.0.0.1):8888/?token=cca561d0906709a092abcc2863db8e399d034369cf0d03e2
+[I 22:04:42.153 NotebookApp] 302 GET /?token=cca561d0906709a092abcc2863db8e399d034369cf0d03e2 (130.126.255.143) 0.67ms
+[I 22:04:49.832 NotebookApp] Kernel started: 974ef3a6-1e12-4849-b2b3-ceda3a81c85b
+[I 22:04:49.978 NotebookApp] Adapting to protocol v5.1 for kernel 974ef3a6-1e12-4849-b2b3-ceda3a81c85b
+[I 22:06:47.357 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 22:08:47.357 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[W 22:12:00.269 NotebookApp] WebSocket ping timeout after 190153 ms.
+[W 22:15:28.515 NotebookApp] Replacing stale connection: 974ef3a6-1e12-4849-b2b3-ceda3a81c85b:aa29221a45644210aa0da78ee4c4524c
+[C 22:16:45.347 NotebookApp] received signal 15, stopping
+[I 22:16:45.749 NotebookApp] Starting buffering for 974ef3a6-1e12-4849-b2b3-ceda3a81c85b:aa29221a45644210aa0da78ee4c4524c
+[I 22:16:45.853 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 22:16:46.190 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+[I 22:16:46.199 NotebookApp] Shutting down 1 kernel
+[I 22:16:48.204 NotebookApp] Kernel shutdown: 974ef3a6-1e12-4849-b2b3-ceda3a81c85b

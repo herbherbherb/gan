@@ -59,16 +59,20 @@ class RNN(nn.Module):
         """
         
         output = None
-        hidden = None
-        
+#         hidden = None
+#         print("========")
+#         print(hidden.size())
+#         print("========")
         ####################################
         #          YOUR CODE HERE          #
         ####################################
         output, hidden = self.rnn(self.encoder(input).view(1, input.size(0), -1), hidden)
-        output = self.decoder(output.view(input.size(0), -1))
-        return output, hidden
-        
+#         print("++++++++++")
+#         print(hidden.size())
+#         print("++++++++++")
+        output = self.decoder(output.view(input.size(0), -1))        
         ##########       END      ##########
+        
         
         
         return output, hidden
@@ -90,10 +94,11 @@ class RNN(nn.Module):
         ####################################
         #          YOUR CODE HERE          #
         ####################################
-        hidden = Variable(torch.zeros(self.n_layers, batch_size, self.hidden_size))
+        hidden = Variable(torch.zeros(self.n_layers, batch_size, self.hidden_size, requires_grad=True))
         if self.model_type == "lstm":
             hidden = (Variable(torch.zeros(self.n_layers, batch_size, self.hidden_size)), \
                       Variable(torch.zeros(self.n_layers, batch_size, self.hidden_size)))
 
         ##########       END      ##########
         return hidden
+
