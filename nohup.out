@@ -110,3 +110,440 @@
 [I 22:16:46.190 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
 [I 22:16:46.199 NotebookApp] Shutting down 1 kernel
 [I 22:16:48.204 NotebookApp] Kernel shutdown: 974ef3a6-1e12-4849-b2b3-ceda3a81c85b
+[I 04:27:53.955 NotebookApp] Writing notebook server cookie secret to /run/user/1001/jupyter/notebook_cookie_secret
+[I 04:27:54.224 NotebookApp] JupyterLab extension loaded from /usr/local/lib/python3.5/dist-packages/jupyterlab
+[I 04:27:54.224 NotebookApp] JupyterLab application directory is /usr/local/share/jupyter/lab
+[I 04:27:54.225 NotebookApp] Serving notebooks from local directory: /home/jkane021/gan
+[I 04:27:54.225 NotebookApp] The Jupyter Notebook is running at:
+[I 04:27:54.225 NotebookApp] http://(cs498-vm or 127.0.0.1):8888/?token=3e600aa707f44a63faf84350d2bee86aad52f6260f6fe771
+[I 04:27:54.225 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 04:27:54.226 NotebookApp] No web browser found: could not locate runnable browser.
+[C 04:27:54.226 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://(cs498-vm or 127.0.0.1):8888/?token=3e600aa707f44a63faf84350d2bee86aad52f6260f6fe771
+[I 04:28:09.465 NotebookApp] 302 GET /?token=3e600aa707f44a63faf84350d2bee86aad52f6260f6fe771 (130.126.255.143) 0.77ms
+[I 04:28:14.940 NotebookApp] Kernel started: 32943245-674a-4935-9e99-4e5b4504a843
+[I 04:28:15.097 NotebookApp] Adapting to protocol v5.1 for kernel 32943245-674a-4935-9e99-4e5b4504a843
+[I 04:28:26.562 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 04:30:14.041 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 04:32:14.900 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                       [I 05:58:24.052 NotebookApp] Writing notebook server cookie secret to /run/user/1001/jupyter/notebook_cookie_secret
+[I 05:58:24.307 NotebookApp] JupyterLab extension loaded from /usr/local/lib/python3.5/dist-packages/jupyterlab
+[I 05:58:24.307 NotebookApp] JupyterLab application directory is /usr/local/share/jupyter/lab
+[I 05:58:24.309 NotebookApp] Serving notebooks from local directory: /home/jkane021/gan
+[I 05:58:24.309 NotebookApp] The Jupyter Notebook is running at:
+[I 05:58:24.309 NotebookApp] http://(cs498-vm or 127.0.0.1):8888/?token=08692314f9af05f85d188ac4c74878d6f8b438a5537f6e88
+[I 05:58:24.309 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 05:58:24.309 NotebookApp] No web browser found: could not locate runnable browser.
+[C 05:58:24.310 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://(cs498-vm or 127.0.0.1):8888/?token=08692314f9af05f85d188ac4c74878d6f8b438a5537f6e88
+[I 05:58:37.741 NotebookApp] 302 GET /?token=08692314f9af05f85d188ac4c74878d6f8b438a5537f6e88 (173.230.18.195) 0.66ms
+[I 05:58:50.725 NotebookApp] Kernel started: 3c4a4ea0-d261-47fb-ae20-dbb04e2048d7
+[I 05:58:51.298 NotebookApp] Adapting to protocol v5.1 for kernel 3c4a4ea0-d261-47fb-ae20-dbb04e2048d7
+[W 05:58:56.298 NotebookApp] 404 GET /static/components/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_AMS-Regular.otf (173.230.18.195) 9.76ms referer=http://35.232.143.241:8888/notebooks/MP4_P1.ipynb
+[I 06:00:59.300 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 06:12:56.551 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 06:23:04.441 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 06:35:44.472 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 06:45:44.513 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 06:58:13.700 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 07:03:09.300 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 07:08:07.687 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 07:13:09.636 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 07:18:10.957 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 07:20:40.335 NotebookApp] Saving file at /MP4_P1.ipynb
+[W 07:21:51.461 NotebookApp] 403 POST / (185.153.198.206): '_xsrf' argument missing from POST
+[W 07:21:51.461 NotebookApp] 403 POST / (185.153.198.206) 1.40ms referer=None
+[I 07:21:51.462 NotebookApp] Malformed HTTP message from 185.153.198.206: Malformed HTTP request line
+[I 07:23:12.279 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 07:28:11.313 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 07:33:09.918 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 07:38:12.134 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 07:43:13.113 NotebookApp] Saving file at /MP4_P1.ipynb
+[W 07:44:58.580 NotebookApp] 403 POST / (185.153.198.206): '_xsrf' argument missing from POST
+[W 07:44:58.581 NotebookApp] 403 POST / (185.153.198.206) 1.40ms referer=None
+[I 07:44:58.581 NotebookApp] Malformed HTTP message from 185.153.198.206: Malformed HTTP request line
+[I 07:45:42.364 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 07:50:37.367 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 07:55:41.286 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 08:00:40.767 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 08:05:38.901 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 08:10:41.089 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 08:15:37.683 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 08:20:43.578 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 08:25:39.901 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 08:30:39.112 NotebookApp] Saving file at /MP4_P1.ipynb
+[W 08:34:12.431 NotebookApp] 403 POST / (185.153.198.208): '_xsrf' argument missing from POST
+[W 08:34:12.432 NotebookApp] 403 POST / (185.153.198.208) 0.89ms referer=None
+[I 08:34:12.432 NotebookApp] Malformed HTTP message from 185.153.198.208: Malformed HTTP request line
+[I 08:35:40.476 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 08:40:38.985 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 08:45:39.715 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 08:50:42.919 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 08:55:39.423 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 08:58:11.557 NotebookApp] Saving file at /MP4_P1.ipynb
+[W 08:59:05.588 NotebookApp] 403 POST / (185.153.198.206): '_xsrf' argument missing from POST
+[W 08:59:05.589 NotebookApp] 403 POST / (185.153.198.206) 1.10ms referer=None
+[I 08:59:05.589 NotebookApp] Malformed HTTP message from 185.153.198.206: Malformed HTTP request line
+[I 09:00:38.082 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 09:05:42.343 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 09:10:42.446 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 09:15:40.641 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 09:20:43.493 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 09:23:11.067 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 09:25:43.795 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 09:30:47.471 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 09:35:44.306 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 09:40:44.274 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 09:45:40.826 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 09:48:08.024 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 09:50:46.149 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 09:55:44.713 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 10:00:45.321 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 10:05:44.513 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 10:10:39.536 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 10:13:13.509 NotebookApp] Saving file at /MP4_P1.ipynb
+[W 10:13:43.549 NotebookApp] 403 POST / (185.153.198.206): '_xsrf' argument missing from POST
+[W 10:13:43.549 NotebookApp] 403 POST / (185.153.198.206) 1.12ms referer=None
+[I 10:13:43.550 NotebookApp] Malformed HTTP message from 185.153.198.206: Malformed HTTP request line
+[I 10:15:43.551 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 10:18:34.314 NotebookApp] 302 GET / (172.105.238.87) 0.56ms
+[I 10:20:39.672 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 10:25:40.004 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 10:30:45.304 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 10:35:44.827 NotebookApp] Saving file at /MP4_P1.ipynb
+[W 10:37:33.411 NotebookApp] 403 POST / (185.153.198.206): '_xsrf' argument missing from POST
+[W 10:37:33.412 NotebookApp] 403 POST / (185.153.198.206) 0.93ms referer=None
+[I 10:37:33.412 NotebookApp] Malformed HTTP message from 185.153.198.206: Malformed HTTP request line
+[I 10:40:41.697 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 10:45:46.814 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 10:50:44.050 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 10:55:45.694 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 11:00:46.401 NotebookApp] Saving file at /MP4_P1.ipynb
+[W 11:03:06.214 NotebookApp] 403 POST / (185.153.198.206): '_xsrf' argument missing from POST
+[W 11:03:06.214 NotebookApp] 403 POST / (185.153.198.206) 0.83ms referer=None
+[I 11:03:06.214 NotebookApp] Malformed HTTP message from 185.153.198.206: Malformed HTTP request line
+[I 11:05:44.895 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 11:10:47.937 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 11:15:39.712 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 11:20:46.036 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 11:25:41.788 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 11:30:45.745 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 11:35:47.257 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 11:40:46.545 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 11:45:44.824 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 11:50:47.947 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 11:55:45.773 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 12:00:49.411 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 12:06:26.960 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 12:09:46.146 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 12:16:36.935 NotebookApp] Saving file at /MP4_P1.ipynb
+[W 12:17:21.206 NotebookApp] 403 POST / (185.153.198.208): '_xsrf' argument missing from POST
+[W 12:17:21.207 NotebookApp] 403 POST / (185.153.198.208) 1.18ms referer=None
+[I 12:17:21.207 NotebookApp] Malformed HTTP message from 185.153.198.208: Malformed HTTP request line
+[I 12:20:02.100 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 12:26:42.620 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 12:29:49.800 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 12:36:51.022 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 12:41:21.083 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 12:45:25.027 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 12:49:41.821 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 12:53:50.058 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 13:02:12.957 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 13:06:19.308 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 13:10:27.520 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 13:14:36.287 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 13:18:46.901 NotebookApp] Saving file at /MP4_P1.ipynb
+[W 13:26:33.751 NotebookApp] 403 POST / (185.153.198.208): '_xsrf' argument missing from POST
+[W 13:26:33.752 NotebookApp] 403 POST / (185.153.198.208) 1.00ms referer=None
+[I 13:26:33.752 NotebookApp] Malformed HTTP message from 185.153.198.208: Malformed HTTP request line
+[I 13:27:02.743 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 13:31:15.412 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 13:35:29.414 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 13:39:36.957 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 13:43:45.134 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 13:52:06.865 NotebookApp] Saving file at /MP4_P1.ipynb
+[W 13:52:44.146 NotebookApp] 403 POST / (185.153.198.206): '_xsrf' argument missing from POST
+[W 13:52:44.147 NotebookApp] 403 POST / (185.153.198.206) 1.13ms referer=None
+[I 13:52:44.147 NotebookApp] Malformed HTTP message from 185.153.198.206: Malformed HTTP request line
+[I 13:56:25.021 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 14:00:31.340 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 14:04:37.433 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 14:08:42.869 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 14:17:15.444 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 14:21:22.971 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 14:25:31.875 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 14:29:41.369 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 14:33:48.372 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 14:37:54.823 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 14:42:12.415 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 14:50:04.047 NotebookApp] Kernel started: 8c31ffcb-a78d-4815-9d48-8d3fe5bb0231
+[I 14:50:04.587 NotebookApp] Adapting to protocol v5.1 for kernel 8c31ffcb-a78d-4815-9d48-8d3fe5bb0231
+[I 14:50:14.799 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 14:50:20.335 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 14:50:24.466 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 14:50:25.121 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 14:50:33.039 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 14:52:04.331 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 14:54:04.097 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 14:56:04.091 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 14:58:04.090 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 15:00:04.094 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 15:02:04.086 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 15:04:04.098 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 15:05:55.610 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 15:06:08.772 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 15:06:16.327 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 15:06:21.258 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 15:08:04.096 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 15:10:04.093 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 15:12:04.092 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 15:14:04.092 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 15:16:04.090 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 15:18:04.091 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 15:20:04.092 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 15:22:04.094 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 15:24:04.094 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 15:26:04.102 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 15:28:04.096 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 15:30:04.093 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 15:32:04.092 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 15:34:04.097 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 15:36:04.094 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 15:38:04.093 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 15:40:04.099 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 15:42:04.094 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 15:44:04.094 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 15:46:04.107 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 15:48:04.097 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 15:50:04.095 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 15:52:04.096 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 15:54:04.097 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 15:56:04.098 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 15:58:04.095 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 16:00:04.105 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 16:02:04.103 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 16:04:04.102 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 17:03:05.020 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 17:03:09.916 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 17:03:15.158 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 17:03:16.856 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 17:03:28.542 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 17:03:32.166 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 17:04:04.312 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 17:06:04.367 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 17:08:04.342 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 17:10:04.309 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 17:12:04.378 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 17:14:04.319 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 17:16:04.314 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 17:18:04.319 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 17:20:04.340 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 17:22:04.344 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[W 17:24:21.301 NotebookApp] WebSocket ping timeout after 119982 ms.
+[I 17:24:26.304 NotebookApp] Starting buffering for 3c4a4ea0-d261-47fb-ae20-dbb04e2048d7:64dd780b1f274b93988651a85ede77c3
+[W 17:24:34.589 NotebookApp] WebSocket ping timeout after 119974 ms.
+[I 17:24:39.591 NotebookApp] Starting buffering for 8c31ffcb-a78d-4815-9d48-8d3fe5bb0231:a0c636a197e14788abb5e4b924b1e659
+[I 18:26:33.485 NotebookApp] Adapting to protocol v5.1 for kernel 3c4a4ea0-d261-47fb-ae20-dbb04e2048d7
+[I 18:26:33.486 NotebookApp] Restoring connection for 3c4a4ea0-d261-47fb-ae20-dbb04e2048d7:64dd780b1f274b93988651a85ede77c3
+[I 18:26:33.531 NotebookApp] Adapting to protocol v5.1 for kernel 8c31ffcb-a78d-4815-9d48-8d3fe5bb0231
+[I 18:26:33.531 NotebookApp] Restoring connection for 8c31ffcb-a78d-4815-9d48-8d3fe5bb0231:a0c636a197e14788abb5e4b924b1e659
+[I 18:38:44.289 NotebookApp] 302 GET /?token=10ed5d7d9dc18f7b2efcbc742518616958e7f392a49acee3 (130.126.255.143) 0.56ms
+[I 18:38:47.927 NotebookApp] Starting buffering for 8c31ffcb-a78d-4815-9d48-8d3fe5bb0231:a0c636a197e14788abb5e4b924b1e659
+[I 18:38:48.688 NotebookApp] Adapting to protocol v5.1 for kernel 8c31ffcb-a78d-4815-9d48-8d3fe5bb0231
+[I 18:38:51.391 NotebookApp] Starting buffering for 3c4a4ea0-d261-47fb-ae20-dbb04e2048d7:64dd780b1f274b93988651a85ede77c3
+[I 18:50:00.057 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 18:50:01.742 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 18:50:06.647 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 18:50:07.684 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 18:50:09.079 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 18:50:49.655 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 18:52:49.657 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 18:54:49.936 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 18:56:48.675 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 18:58:49.663 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 19:00:49.662 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 19:02:49.663 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 19:04:49.663 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 19:06:49.719 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[W 19:07:50.937 NotebookApp] 403 POST / (185.153.198.206): '_xsrf' argument missing from POST
+[W 19:07:50.937 NotebookApp] 403 POST / (185.153.198.206) 0.85ms referer=None
+[I 19:07:50.938 NotebookApp] Malformed HTTP message from 185.153.198.206: Malformed HTTP request line
+[I 19:08:48.682 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 19:10:48.691 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 19:14:40.113 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 19:14:40.583 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 19:14:43.466 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 19:14:44.653 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 19:14:47.986 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 19:16:48.672 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 19:18:48.678 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 19:20:48.675 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 19:22:49.668 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 19:24:49.670 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 19:26:49.657 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 19:28:49.666 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 19:30:49.655 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 19:32:49.663 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 19:34:49.668 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 19:36:49.666 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 19:41:32.458 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 19:41:33.409 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 19:41:35.381 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 19:41:40.156 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 19:41:52.562 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 19:42:49.654 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 19:44:48.677 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 19:46:49.668 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 19:49:11.554 NotebookApp] 302 GET / (196.52.43.51) 0.60ms
+[W 19:49:48.690 NotebookApp] WebSocket ping timeout after 119933 ms.
+[I 19:49:53.692 NotebookApp] Starting buffering for 8c31ffcb-a78d-4815-9d48-8d3fe5bb0231:485ca808e94544958bb73b13c77850de
+[I 20:13:34.860 NotebookApp] Adapting to protocol v5.1 for kernel 8c31ffcb-a78d-4815-9d48-8d3fe5bb0231
+[I 20:13:34.877 NotebookApp] Restoring connection for 8c31ffcb-a78d-4815-9d48-8d3fe5bb0231:485ca808e94544958bb73b13c77850de
+[I 20:13:34.877 NotebookApp] Replaying 70 buffered messages
+[I 20:14:52.617 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 20:20:23.215 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 20:20:23.970 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 20:20:28.751 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 20:20:28.882 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 20:20:29.566 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 20:20:29.646 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 20:20:30.094 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 20:20:33.911 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 20:20:34.054 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 20:22:37.605 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 20:22:52.747 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 20:22:54.344 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 20:22:55.662 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 20:22:55.717 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 20:25:28.566 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 20:27:06.853 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 20:27:08.643 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 20:27:19.041 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 20:27:19.999 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 20:27:29.135 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 20:27:29.871 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 20:27:30.454 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 20:27:33.208 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 20:27:39.628 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 20:27:39.953 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[W 20:30:04.880 NotebookApp] WebSocket ping timeout after 119850 ms.
+[E 20:30:07.640 NotebookApp] Uncaught exception in ZMQStream callback
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.5/dist-packages/zmq/eventloop/zmqstream.py", line 432, in _run_callback
+        callback(*args, **kwargs)
+      File "/usr/local/lib/python3.5/dist-packages/tornado/stack_context.py", line 300, in null_wrapper
+        return fn(*args, **kwargs)
+      File "/usr/local/lib/python3.5/dist-packages/zmq/eventloop/zmqstream.py", line 196, in <lambda>
+        self.on_recv(lambda msg: callback(self, msg), copy=copy)
+      File "/usr/local/lib/python3.5/dist-packages/notebook/services/kernels/handlers.py", line 419, in _on_zmq_reply
+        super(ZMQChannelsHandler, self)._on_zmq_reply(stream, msg)
+      File "/usr/local/lib/python3.5/dist-packages/notebook/base/zmqhandlers.py", line 250, in _on_zmq_reply
+        self.write_message(msg, binary=isinstance(msg, bytes))
+      File "/usr/local/lib/python3.5/dist-packages/tornado/websocket.py", line 259, in write_message
+        raise WebSocketClosedError()
+    tornado.websocket.WebSocketClosedError
+[E 20:30:07.734 NotebookApp] Uncaught exception in zmqstream callback
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.5/dist-packages/zmq/eventloop/zmqstream.py", line 450, in _handle_events
+        self._handle_recv()
+      File "/usr/local/lib/python3.5/dist-packages/zmq/eventloop/zmqstream.py", line 480, in _handle_recv
+        self._run_callback(callback, msg)
+      File "/usr/local/lib/python3.5/dist-packages/zmq/eventloop/zmqstream.py", line 432, in _run_callback
+        callback(*args, **kwargs)
+      File "/usr/local/lib/python3.5/dist-packages/tornado/stack_context.py", line 300, in null_wrapper
+        return fn(*args, **kwargs)
+      File "/usr/local/lib/python3.5/dist-packages/zmq/eventloop/zmqstream.py", line 196, in <lambda>
+        self.on_recv(lambda msg: callback(self, msg), copy=copy)
+      File "/usr/local/lib/python3.5/dist-packages/notebook/services/kernels/handlers.py", line 419, in _on_zmq_reply
+        super(ZMQChannelsHandler, self)._on_zmq_reply(stream, msg)
+      File "/usr/local/lib/python3.5/dist-packages/notebook/base/zmqhandlers.py", line 250, in _on_zmq_reply
+        self.write_message(msg, binary=isinstance(msg, bytes))
+      File "/usr/local/lib/python3.5/dist-packages/tornado/websocket.py", line 259, in write_message
+        raise WebSocketClosedError()
+    tornado.websocket.WebSocketClosedError
+Exception in callback BaseAsyncIOLoop._handle_events(47, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(47, 1)>
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/asyncio/events.py", line 126, in _run
+    self._callback(*self._args)
+  File "/usr/local/lib/python3.5/dist-packages/tornado/platform/asyncio.py", line 122, in _handle_events
+    handler_func(fileobj, events)
+  File "/usr/local/lib/python3.5/dist-packages/tornado/stack_context.py", line 300, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/zmq/eventloop/zmqstream.py", line 450, in _handle_events
+    self._handle_recv()
+  File "/usr/local/lib/python3.5/dist-packages/zmq/eventloop/zmqstream.py", line 480, in _handle_recv
+    self._run_callback(callback, msg)
+  File "/usr/local/lib/python3.5/dist-packages/zmq/eventloop/zmqstream.py", line 432, in _run_callback
+    callback(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/tornado/stack_context.py", line 300, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/zmq/eventloop/zmqstream.py", line 196, in <lambda>
+    self.on_recv(lambda msg: callback(self, msg), copy=copy)
+  File "/usr/local/lib/python3.5/dist-packages/notebook/services/kernels/handlers.py", line 419, in _on_zmq_reply
+    super(ZMQChannelsHandler, self)._on_zmq_reply(stream, msg)
+  File "/usr/local/lib/python3.5/dist-packages/notebook/base/zmqhandlers.py", line 250, in _on_zmq_reply
+    self.write_message(msg, binary=isinstance(msg, bytes))
+  File "/usr/local/lib/python3.5/dist-packages/tornado/websocket.py", line 259, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+[I 20:30:09.894 NotebookApp] Starting buffering for 8c31ffcb-a78d-4815-9d48-8d3fe5bb0231:485ca808e94544958bb73b13c77850de
+[I 20:35:45.074 NotebookApp] Adapting to protocol v5.1 for kernel 8c31ffcb-a78d-4815-9d48-8d3fe5bb0231
+[I 20:35:45.347 NotebookApp] Restoring connection for 8c31ffcb-a78d-4815-9d48-8d3fe5bb0231:485ca808e94544958bb73b13c77850de
+[I 20:35:45.458 NotebookApp] Replaying 15 buffered messages
+[I 20:36:20.107 NotebookApp] Kernel shutdown: 3c4a4ea0-d261-47fb-ae20-dbb04e2048d7
+[I 20:36:48.533 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 20:39:38.593 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 20:42:28.566 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 20:45:18.515 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 20:48:08.531 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 20:50:58.586 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 20:53:48.544 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 20:54:16.513 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 20:54:27.163 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 20:54:36.159 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 20:54:40.077 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 20:54:41.994 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 20:55:15.646 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 20:55:25.240 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 20:55:33.565 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 20:55:41.394 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 20:55:57.605 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 20:55:57.822 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 20:56:37.871 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 20:59:28.596 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[I 21:01:43.654 NotebookApp] Starting buffering for 8c31ffcb-a78d-4815-9d48-8d3fe5bb0231:485ca808e94544958bb73b13c77850de
+[I 21:01:51.207 NotebookApp] Kernel shutdown: 8c31ffcb-a78d-4815-9d48-8d3fe5bb0231
+[W 21:01:51.209 NotebookApp] 404 DELETE /api/sessions/b6e9b48b-bdb6-464f-9f16-7f70bef2979a (130.126.255.143): Session not found: session_id='b6e9b48b-bdb6-464f-9f16-7f70bef2979a'
+[W 21:01:51.211 NotebookApp] Session not found: session_id='b6e9b48b-bdb6-464f-9f16-7f70bef2979a'
+[W 21:01:51.211 NotebookApp] 404 DELETE /api/sessions/b6e9b48b-bdb6-464f-9f16-7f70bef2979a (130.126.255.143) 2.31ms referer=http://35.232.143.241:8888/tree
+[I 21:01:55.768 NotebookApp] Kernel started: 15ccd253-55c5-4ed7-8551-647ff46bb2ed
+[I 21:01:57.573 NotebookApp] Adapting to protocol v5.1 for kernel 15ccd253-55c5-4ed7-8551-647ff46bb2ed
+[I 21:03:56.520 NotebookApp] Saving file at /MP4_P2_classification.ipynb
+[W 21:05:57.576 NotebookApp] WebSocket ping timeout after 119983 ms.
+[I 21:06:02.578 NotebookApp] Starting buffering for 15ccd253-55c5-4ed7-8551-647ff46bb2ed:000213f6d2df434180de7a43cbabff63
+[I 21:59:35.039 NotebookApp] Adapting to protocol v5.1 for kernel 15ccd253-55c5-4ed7-8551-647ff46bb2ed
+[I 21:59:35.040 NotebookApp] Discarding 161 buffered messages for 15ccd253-55c5-4ed7-8551-647ff46bb2ed:000213f6d2df434180de7a43cbabff63
+[I 21:59:46.288 NotebookApp] Starting buffering for 15ccd253-55c5-4ed7-8551-647ff46bb2ed:25c642497de04299a993b59d4c2bcd51
+[I 21:59:59.039 NotebookApp] Adapting to protocol v5.1 for kernel 15ccd253-55c5-4ed7-8551-647ff46bb2ed
+[W 22:02:59.041 NotebookApp] WebSocket ping timeout after 119922 ms.
+[I 22:03:04.045 NotebookApp] Starting buffering for 15ccd253-55c5-4ed7-8551-647ff46bb2ed:d857a9d8ff89489380f957b22df0a2ea
+[I 22:03:37.582 NotebookApp] Adapting to protocol v5.1 for kernel 15ccd253-55c5-4ed7-8551-647ff46bb2ed
+[I 22:03:37.583 NotebookApp] Restoring connection for 15ccd253-55c5-4ed7-8551-647ff46bb2ed:d857a9d8ff89489380f957b22df0a2ea
+[I 22:03:48.533 NotebookApp] Kernel shutdown: 15ccd253-55c5-4ed7-8551-647ff46bb2ed
+[W 22:03:48.538 NotebookApp] 404 DELETE /api/sessions/046ded11-89d7-4d89-bba5-98303479f4eb (130.126.255.143): Session not found: session_id='046ded11-89d7-4d89-bba5-98303479f4eb'
+[W 22:03:48.538 NotebookApp] Session not found: session_id='046ded11-89d7-4d89-bba5-98303479f4eb'
+[W 22:03:48.538 NotebookApp] 404 DELETE /api/sessions/046ded11-89d7-4d89-bba5-98303479f4eb (130.126.255.143) 1.13ms referer=http://35.232.143.241:8888/tree
+[I 22:07:26.408 NotebookApp] 302 GET /?token=10ed5d7d9dc18f7b2efcbc742518616958e7f392a49acee3 (192.17.11.6) 0.57ms
+[I 22:07:26.426 NotebookApp] 302 GET /tree?token=10ed5d7d9dc18f7b2efcbc742518616958e7f392a49acee3 (192.17.11.6) 0.76ms
+[W 22:07:39.478 NotebookApp] 401 POST /login?next=%2Ftree%3Ftoken%3D10ed5d7d9dc18f7b2efcbc742518616958e7f392a49acee3 (192.17.11.6) 1.67ms referer=http://35.232.143.241:8888/login?next=%2Ftree%3Ftoken%3D10ed5d7d9dc18f7b2efcbc742518616958e7f392a49acee3
+[I 22:08:17.470 NotebookApp] 302 GET /?token=cca561d0906709a092abcc2863db8e399d034369cf0d03e2 (192.17.11.6) 0.55ms
+[I 22:08:17.487 NotebookApp] 302 GET /tree?token=cca561d0906709a092abcc2863db8e399d034369cf0d03e2 (192.17.11.6) 0.71ms
+[C 22:09:52.292 NotebookApp] received signal 15, stopping
+[I 22:09:52.293 NotebookApp] Shutting down 0 kernels

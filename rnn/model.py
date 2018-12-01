@@ -59,17 +59,10 @@ class RNN(nn.Module):
         """
         
         output = None
-#         hidden = None
-#         print("========")
-#         print(hidden.size())
-#         print("========")
         ####################################
         #          YOUR CODE HERE          #
         ####################################
         output, hidden = self.rnn(self.encoder(input).view(1, input.size(0), -1), hidden)
-#         print("++++++++++")
-#         print(hidden.size())
-#         print("++++++++++")
         output = self.decoder(output.view(input.size(0), -1))        
         ##########       END      ##########
         
@@ -94,10 +87,10 @@ class RNN(nn.Module):
         ####################################
         #          YOUR CODE HERE          #
         ####################################
-        hidden = Variable(torch.zeros(self.n_layers, batch_size, self.hidden_size, requires_grad=True))
+        hidden = Variable(torch.zeros(self.n_layers, batch_size, self.hidden_size, requires_grad=True).to(device))
         if self.model_type == "lstm":
-            hidden = (Variable(torch.zeros(self.n_layers, batch_size, self.hidden_size)), \
-                      Variable(torch.zeros(self.n_layers, batch_size, self.hidden_size)))
+            hidden = (Variable(torch.zeros(self.n_layers, batch_size, self.hidden_size).to(device)), \
+                      Variable(torch.zeros(self.n_layers, batch_size, self.hidden_size).to(device)))
 
         ##########       END      ##########
         return hidden
