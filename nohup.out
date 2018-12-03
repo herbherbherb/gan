@@ -1,0 +1,15 @@
+[I 03:55:06.278 NotebookApp] The port 8888 is already in use, trying another port.
+[I 03:55:06.311 NotebookApp] JupyterLab extension loaded from /usr/local/lib/python3.5/dist-packages/jupyterlab
+[I 03:55:06.311 NotebookApp] JupyterLab application directory is /usr/local/share/jupyter/lab
+[I 03:55:06.312 NotebookApp] Serving notebooks from local directory: /home/jkane021/gan
+[I 03:55:06.312 NotebookApp] The Jupyter Notebook is running at:
+[I 03:55:06.312 NotebookApp] http://(cs498-vm or 127.0.0.1):8889/?token=43cd8c03415f0acbb959d1f39a35f2baa0063dd2dff336b1
+[I 03:55:06.312 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 03:55:06.313 NotebookApp] No web browser found: could not locate runnable browser.
+[C 03:55:06.313 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://(cs498-vm or 127.0.0.1):8889/?token=43cd8c03415f0acbb959d1f39a35f2baa0063dd2dff336b1
+[C 03:56:05.016 NotebookApp] received signal 15, stopping
+[I 03:56:05.017 NotebookApp] Shutting down 0 kernels
