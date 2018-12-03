@@ -70,3 +70,169 @@
 [I 06:26:45.643 NotebookApp] Starting buffering for d149f03f-5822-4018-b6a0-aa216432c118:8138a09344e94ca18ac5ce77711369f2
 [I 06:26:51.591 NotebookApp] Adapting to protocol v5.1 for kernel d149f03f-5822-4018-b6a0-aa216432c118
 [W 06:26:55.062 NotebookApp] 404 GET /static/components/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_AMS-Regular.otf (173.230.18.195) 13.12ms referer=http://35.232.143.241:8888/notebooks/MP4_P1.ipynb
+[I 06:45:39.232 NotebookApp] Copying MP4_P1.ipynb to 
+[I 06:45:48.688 NotebookApp] Kernel started: 50522aa3-3f61-4523-b774-1789f5696db5
+[I 06:45:49.244 NotebookApp] Adapting to protocol v5.1 for kernel 50522aa3-3f61-4523-b774-1789f5696db5
+[W 06:45:52.496 NotebookApp] 404 GET /static/components/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_AMS-Regular.otf (173.230.18.195) 2.23ms referer=http://35.232.143.241:8888/notebooks/MP4_P1-Copy1.ipynb
+[I 06:47:16.227 NotebookApp] Saving file at /MP4_P1-Copy1.ipynb
+[I 06:48:12.479 NotebookApp] Saving file at /MP4_P1-Copy1.ipynb
+[E 06:48:19.331 NotebookApp] nbconvert failed: Pandoc wasn't found.
+    Please check that pandoc is installed:
+    http://pandoc.org/installing.html
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.5/dist-packages/notebook/nbconvert/handlers.py", line 123, in get
+        resources=resource_dict
+      File "/usr/local/lib/python3.5/dist-packages/nbconvert/exporters/pdf.py", line 158, in from_notebook_node
+        nb, resources=resources, **kw
+      File "/usr/local/lib/python3.5/dist-packages/nbconvert/exporters/latex.py", line 83, in from_notebook_node
+        return super(LatexExporter, self).from_notebook_node(nb, resources, **kw)
+      File "/usr/local/lib/python3.5/dist-packages/nbconvert/exporters/templateexporter.py", line 315, in from_notebook_node
+        output = self.template.render(nb=nb_copy, resources=resources)
+      File "/usr/local/lib/python3.5/dist-packages/jinja2/environment.py", line 1008, in render
+        return self.environment.handle_exception(exc_info, True)
+      File "/usr/local/lib/python3.5/dist-packages/jinja2/environment.py", line 780, in handle_exception
+        reraise(exc_type, exc_value, tb)
+      File "/usr/local/lib/python3.5/dist-packages/jinja2/_compat.py", line 37, in reraise
+        raise value.with_traceback(tb)
+      File "/usr/local/lib/python3.5/dist-packages/nbconvert/exporters/../templates/latex/article.tplx", line 8, in top-level template code
+        ((* extends cell_style *))
+      File "/usr/local/lib/python3.5/dist-packages/nbconvert/exporters/../templates/latex/style_ipython.tplx", line 68, in top-level template code
+        ((( text | add_prompts(first='{\color{' ~ prompt_color ~ '}' ~ prompt ~ '[{\\color{' ~ prompt_color ~ '}' ~ execution_count ~ '}]:} ', cont=indention) )))
+      File "/usr/local/lib/python3.5/dist-packages/nbconvert/exporters/../templates/latex/base.tplx", line 6, in top-level template code
+        ((*- extends 'document_contents.tplx' -*))
+      File "/usr/local/lib/python3.5/dist-packages/nbconvert/exporters/../templates/latex/document_contents.tplx", line 50, in top-level template code
+        ((*- block figure scoped -*))
+      File "/usr/local/lib/python3.5/dist-packages/nbconvert/exporters/../templates/latex/skeleton/display_priority.tplx", line 5, in top-level template code
+        ((*- extends 'null.tplx' -*))
+      File "/usr/local/lib/python3.5/dist-packages/nbconvert/exporters/../templates/latex/skeleton/null.tplx", line 30, in top-level template code
+        ((*- block body -*))
+      File "/usr/local/lib/python3.5/dist-packages/nbconvert/exporters/../templates/latex/base.tplx", line 188, in block "body"
+        ((( super() )))
+      File "/usr/local/lib/python3.5/dist-packages/nbconvert/exporters/../templates/latex/skeleton/null.tplx", line 32, in block "body"
+        ((*- block any_cell scoped -*))
+      File "/usr/local/lib/python3.5/dist-packages/nbconvert/exporters/../templates/latex/skeleton/null.tplx", line 85, in block "any_cell"
+        ((*- block markdowncell scoped-*)) ((*- endblock markdowncell -*))
+      File "/usr/local/lib/python3.5/dist-packages/nbconvert/exporters/../templates/latex/document_contents.tplx", line 67, in block "markdowncell"
+        ((( cell.source | citation2latex | strip_files_prefix | convert_pandoc('markdown+tex_math_double_backslash', 'json',extra_args=[]) | resolve_references | convert_pandoc('json','latex'))))
+      File "/usr/local/lib/python3.5/dist-packages/nbconvert/filters/pandoc.py", line 26, in convert_pandoc
+        return pandoc(source, from_format, to_format, extra_args=extra_args)
+      File "/usr/local/lib/python3.5/dist-packages/nbconvert/utils/pandoc.py", line 52, in pandoc
+        check_pandoc_version()
+      File "/usr/local/lib/python3.5/dist-packages/nbconvert/utils/pandoc.py", line 97, in check_pandoc_version
+        v = get_pandoc_version()
+      File "/usr/local/lib/python3.5/dist-packages/nbconvert/utils/pandoc.py", line 77, in get_pandoc_version
+        raise PandocMissing()
+    nbconvert.utils.pandoc.PandocMissing: Pandoc wasn't found.
+    Please check that pandoc is installed:
+    http://pandoc.org/installing.html
+[W 06:48:19.349 NotebookApp] 500 GET /nbconvert/pdf/MP4_P1-Copy1.ipynb?download=true (173.230.18.195): nbconvert failed: Pandoc wasn't found.
+    Please check that pandoc is installed:
+    http://pandoc.org/installing.html
+[E 06:48:19.351 NotebookApp] {
+      "Connection": "keep-alive",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36",
+      "Host": "35.232.143.241:8888",
+      "Accept-Encoding": "gzip, deflate",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Upgrade-Insecure-Requests": "1",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+      "Cookie": "_xsrf=2|b5368cf9|195aeca18c2c917e489bea45e00d3c64|1541522560; username-35-232-143-241-8888=\"2|1:0|10:1543809764|28:username-35-232-143-241-8888|44:YzI0NTA4YzQ0YmJiNDlmZmFlOWE3NDE4YzljMjhiOWI=|5ade106edd07c93118678d2abdf877da4a9b4f02c288b01dbc4542567d94087c\"",
+      "Referer": "http://35.232.143.241:8888/notebooks/MP4_P1-Copy1.ipynb"
+    }
+[E 06:48:19.351 NotebookApp] 500 GET /nbconvert/pdf/MP4_P1-Copy1.ipynb?download=true (173.230.18.195) 1797.74ms referer=http://35.232.143.241:8888/notebooks/MP4_P1-Copy1.ipynb
+[E 06:48:30.503 NotebookApp] nbconvert failed: Pandoc wasn't found.
+    Please check that pandoc is installed:
+    http://pandoc.org/installing.html
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.5/dist-packages/notebook/nbconvert/handlers.py", line 123, in get
+        resources=resource_dict
+      File "/usr/local/lib/python3.5/dist-packages/nbconvert/exporters/pdf.py", line 158, in from_notebook_node
+        nb, resources=resources, **kw
+      File "/usr/local/lib/python3.5/dist-packages/nbconvert/exporters/latex.py", line 83, in from_notebook_node
+        return super(LatexExporter, self).from_notebook_node(nb, resources, **kw)
+      File "/usr/local/lib/python3.5/dist-packages/nbconvert/exporters/templateexporter.py", line 315, in from_notebook_node
+        output = self.template.render(nb=nb_copy, resources=resources)
+      File "/usr/local/lib/python3.5/dist-packages/jinja2/environment.py", line 1008, in render
+        return self.environment.handle_exception(exc_info, True)
+      File "/usr/local/lib/python3.5/dist-packages/jinja2/environment.py", line 780, in handle_exception
+        reraise(exc_type, exc_value, tb)
+      File "/usr/local/lib/python3.5/dist-packages/jinja2/_compat.py", line 37, in reraise
+        raise value.with_traceback(tb)
+      File "/usr/local/lib/python3.5/dist-packages/nbconvert/exporters/../templates/latex/article.tplx", line 8, in top-level template code
+        ((* extends cell_style *))
+      File "/usr/local/lib/python3.5/dist-packages/nbconvert/exporters/../templates/latex/style_ipython.tplx", line 68, in top-level template code
+        ((( text | add_prompts(first='{\color{' ~ prompt_color ~ '}' ~ prompt ~ '[{\\color{' ~ prompt_color ~ '}' ~ execution_count ~ '}]:} ', cont=indention) )))
+      File "/usr/local/lib/python3.5/dist-packages/nbconvert/exporters/../templates/latex/base.tplx", line 6, in top-level template code
+        ((*- extends 'document_contents.tplx' -*))
+      File "/usr/local/lib/python3.5/dist-packages/nbconvert/exporters/../templates/latex/document_contents.tplx", line 50, in top-level template code
+        ((*- block figure scoped -*))
+      File "/usr/local/lib/python3.5/dist-packages/nbconvert/exporters/../templates/latex/skeleton/display_priority.tplx", line 5, in top-level template code
+        ((*- extends 'null.tplx' -*))
+      File "/usr/local/lib/python3.5/dist-packages/nbconvert/exporters/../templates/latex/skeleton/null.tplx", line 30, in top-level template code
+        ((*- block body -*))
+      File "/usr/local/lib/python3.5/dist-packages/nbconvert/exporters/../templates/latex/base.tplx", line 188, in block "body"
+        ((( super() )))
+      File "/usr/local/lib/python3.5/dist-packages/nbconvert/exporters/../templates/latex/skeleton/null.tplx", line 32, in block "body"
+        ((*- block any_cell scoped -*))
+      File "/usr/local/lib/python3.5/dist-packages/nbconvert/exporters/../templates/latex/skeleton/null.tplx", line 85, in block "any_cell"
+        ((*- block markdowncell scoped-*)) ((*- endblock markdowncell -*))
+      File "/usr/local/lib/python3.5/dist-packages/nbconvert/exporters/../templates/latex/document_contents.tplx", line 67, in block "markdowncell"
+        ((( cell.source | citation2latex | strip_files_prefix | convert_pandoc('markdown+tex_math_double_backslash', 'json',extra_args=[]) | resolve_references | convert_pandoc('json','latex'))))
+      File "/usr/local/lib/python3.5/dist-packages/nbconvert/filters/pandoc.py", line 26, in convert_pandoc
+        return pandoc(source, from_format, to_format, extra_args=extra_args)
+      File "/usr/local/lib/python3.5/dist-packages/nbconvert/utils/pandoc.py", line 52, in pandoc
+        check_pandoc_version()
+      File "/usr/local/lib/python3.5/dist-packages/nbconvert/utils/pandoc.py", line 97, in check_pandoc_version
+        v = get_pandoc_version()
+      File "/usr/local/lib/python3.5/dist-packages/nbconvert/utils/pandoc.py", line 77, in get_pandoc_version
+        raise PandocMissing()
+    nbconvert.utils.pandoc.PandocMissing: Pandoc wasn't found.
+    Please check that pandoc is installed:
+    http://pandoc.org/installing.html
+[W 06:48:30.504 NotebookApp] 500 GET /nbconvert/pdf/MP4_P1-Copy1.ipynb?download=true (173.230.18.195): nbconvert failed: Pandoc wasn't found.
+    Please check that pandoc is installed:
+    http://pandoc.org/installing.html
+[E 06:48:30.505 NotebookApp] {
+      "Connection": "keep-alive",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36",
+      "Host": "35.232.143.241:8888",
+      "Accept-Encoding": "gzip, deflate",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Upgrade-Insecure-Requests": "1",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+      "Cookie": "_xsrf=2|b5368cf9|195aeca18c2c917e489bea45e00d3c64|1541522560; username-35-232-143-241-8888=\"2|1:0|10:1543809764|28:username-35-232-143-241-8888|44:YzI0NTA4YzQ0YmJiNDlmZmFlOWE3NDE4YzljMjhiOWI=|5ade106edd07c93118678d2abdf877da4a9b4f02c288b01dbc4542567d94087c\"",
+      "Referer": "http://35.232.143.241:8888/notebooks/MP4_P1-Copy1.ipynb"
+    }
+[E 06:48:30.505 NotebookApp] 500 GET /nbconvert/pdf/MP4_P1-Copy1.ipynb?download=true (173.230.18.195) 1764.44ms referer=http://35.232.143.241:8888/notebooks/MP4_P1-Copy1.ipynb
+[I 06:53:07.712 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 06:53:12.976 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 06:53:17.031 NotebookApp] Kernel interrupted: d149f03f-5822-4018-b6a0-aa216432c118
+[I 06:53:21.273 NotebookApp] Kernel restarted: d149f03f-5822-4018-b6a0-aa216432c118
+[W 06:53:21.280 NotebookApp] zmq message arrived on closed channel
+[I 06:53:21.281 NotebookApp] Starting buffering for d149f03f-5822-4018-b6a0-aa216432c118:751cf42e161b4a4492313c99100a789b
+[I 06:53:21.856 NotebookApp] Adapting to protocol v5.1 for kernel d149f03f-5822-4018-b6a0-aa216432c118
+[I 06:53:21.857 NotebookApp] Restoring connection for d149f03f-5822-4018-b6a0-aa216432c118:751cf42e161b4a4492313c99100a789b
+[I 06:53:21.857 NotebookApp] Replaying 3 buffered messages
+[I 06:53:26.467 NotebookApp] Starting buffering for d149f03f-5822-4018-b6a0-aa216432c118:751cf42e161b4a4492313c99100a789b
+[I 06:53:26.778 NotebookApp] Kernel restarted: d149f03f-5822-4018-b6a0-aa216432c118
+[I 06:53:27.364 NotebookApp] Adapting to protocol v5.1 for kernel d149f03f-5822-4018-b6a0-aa216432c118
+[I 06:53:27.365 NotebookApp] Restoring connection for d149f03f-5822-4018-b6a0-aa216432c118:751cf42e161b4a4492313c99100a789b
+[I 06:53:27.365 NotebookApp] Replaying 3 buffered messages
+[I 06:54:09.197 NotebookApp] Kernel interrupted: d149f03f-5822-4018-b6a0-aa216432c118
+[I 06:54:24.644 NotebookApp] Kernel restarted: d149f03f-5822-4018-b6a0-aa216432c118
+[W 06:54:24.655 NotebookApp] zmq message arrived on closed channel
+[I 06:54:24.656 NotebookApp] Starting buffering for d149f03f-5822-4018-b6a0-aa216432c118:751cf42e161b4a4492313c99100a789b
+[I 06:54:25.296 NotebookApp] Adapting to protocol v5.1 for kernel d149f03f-5822-4018-b6a0-aa216432c118
+[I 06:54:25.297 NotebookApp] Restoring connection for d149f03f-5822-4018-b6a0-aa216432c118:751cf42e161b4a4492313c99100a789b
+[I 06:54:25.297 NotebookApp] Replaying 3 buffered messages
+[I 06:55:14.679 NotebookApp] Starting buffering for 50522aa3-3f61-4523-b774-1789f5696db5:e75999d3a06041f0ad390e07496f364c
+[I 06:55:50.171 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 06:58:19.925 NotebookApp] Adapting to protocol v5.1 for kernel 50522aa3-3f61-4523-b774-1789f5696db5
+[W 06:58:23.249 NotebookApp] 404 GET /static/components/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_AMS-Regular.otf (173.230.18.195) 2.07ms referer=http://35.232.143.241:8888/notebooks/MP4_P1-Copy1.ipynb
+[I 06:58:34.704 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 06:58:40.387 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 06:58:40.757 NotebookApp] Saving file at /MP4_P1.ipynb
+[I 06:58:41.950 NotebookApp] Starting buffering for d149f03f-5822-4018-b6a0-aa216432c118:751cf42e161b4a4492313c99100a789b
+[I 06:58:45.375 NotebookApp] Starting buffering for 50522aa3-3f61-4523-b774-1789f5696db5:774f08e3758f44e9b8797b3112e3b169
+[I 06:58:48.882 NotebookApp] Adapting to protocol v5.1 for kernel d149f03f-5822-4018-b6a0-aa216432c118
+[W 06:59:08.094 NotebookApp] 404 GET /static/components/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_AMS-Regular.otf (173.230.18.195) 2.04ms referer=http://35.232.143.241:8888/notebooks/MP4_P1.ipynb
